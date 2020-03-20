@@ -22,10 +22,6 @@ var (
 	db  *gorm.DB
 	ethClient *ethclient.Client
 	ethRPCClient *rpc.Client
-	addresses [] models.Address
-	tokenAddress string
-	tokenDecimal int
-	coldWalletAddress string
 )
 func main() {
 	app.Init_Logger("../log/fee_transaction")

@@ -47,7 +47,7 @@ func main() {
 			time.Sleep(5 * time.Second)
 		}
 	}()
-	
+
 	logger.Infof(" [*] Waiting for messages. To exit press CTRL+C")
 	<-forever
 }
